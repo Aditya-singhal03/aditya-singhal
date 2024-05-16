@@ -15,7 +15,7 @@ import {Badge} from '@/components/ui/badge'
 
 const ProjectCard = ({project}:{project:projectObjectType}) => {
   return (
-    <Card className="group overflow-hidden relative">
+    <Card className="group overflow-hidden relative h-[480px]">
         <CardHeader className="p-0">
             <div className="relative w-full h-[300px] flex justify-center
             items-center bg-tertiary dark:bg-secondary/40 xl:bg-">
